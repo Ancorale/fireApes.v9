@@ -1,0 +1,65 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<p><a href=\"http:\/\/fireapesfd.com\" title=\"http:\/\/fireapesfd.com\"><strong>fireapesfd.com<\/strong><\/a><\/p>"
+          }
+        },
+        "b8ec9507-3269-4180-aaa7-70bc69947ce0": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<p><a href=\"https:\/\/fireapesfd.com\/pages\/associated-links\" target=\"_blank\">Associated Links<\/a><\/p>"
+          }
+        },
+        "8f127d24-a659-4232-9df3-042c55988f3b": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<p><a href=\"\/policies\/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\"><strong>Policies<\/strong><\/a><\/p>"
+          }
+        },
+        "28a47eb4-7be7-45ad-82eb-8e8e0c480a16": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<p><a href=\"mailto:info@fireapesfd.com\" target=\"_blank\" title=\"info@fireapesfd.com\">info@fireapesfd.com<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "b8ec9507-3269-4180-aaa7-70bc69947ce0",
+        "8f127d24-a659-4232-9df3-042c55988f3b",
+        "28a47eb4-7be7-45ad-82eb-8e8e0c480a16"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 990px) {footer {position: relative; top: -643rem;}}"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
