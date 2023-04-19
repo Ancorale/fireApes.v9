@@ -82,9 +82,9 @@ figure {
   width: 100%;
 }
 
-.content > * + * {
+/* .content > * + * {
   margin-top: 2rem;
-}
+} */
 
 .image-container {
   position: sticky;
@@ -329,21 +329,6 @@ button[aria-label="Edit address 2"],
   text-shadow: none;
 }
 
-/* #MainContent>div>div:nth-child(4)>div:nth-child(2)>a.appstle_manageSubBtn>button */
-
-/* collection list */
-/* section.shopify-section.section.section-collection-list div.color-accent-1.gradient,
-#shopify-section-template--16272524738789__166015441777248882>div>div,
-#shopify-section-template--16272524738789__166060151017f1104d>div>div,
-section.color-background-1.background-secondary,section.section.section div.multicolumn.color-accent-1.gradient.background-none {
-    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(1, 1, 18, 1));
-    opacity: .9;
-  } */
-
-/* div#cart-notification {
-  background-image: linear-gradient(to right, rgba(1, 1, 18, .9), rgba(1, 1, 18, 1));
-} */
-
 form#FacetFiltersForm h2,
 form#FacetFiltersForm summary,
 #SortBy,
@@ -374,11 +359,6 @@ div.appstle_tooltip_wrapper,
 .global-media-settings {
   background-color: transparent;
 }
-
-/* price remover */
-/* .price-item.price-item--regular {
-  visibility: hidden;
-} */
 
 /* Footer */
 .copyright__content {
