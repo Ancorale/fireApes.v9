@@ -370,7 +370,7 @@ div.appstle_tooltip_wrapper,
 }
 
 /* media queries  full screen */
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 749px) {
   /* policies centered */
   #shopify-section-footer
     > footer
