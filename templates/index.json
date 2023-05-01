@@ -240,7 +240,7 @@
         "7f90bda6-fdec-421b-90df-432153d0f9df"
       ],
       "custom_css": [
-        "@media screen and (min-width: 990px) {div.multicolumn > div {margin-left: -3rem; } li.slider__slide > div {z-index: 3; }}"
+        "@media screen and (min-width: 749px) {div.multicolumn > div {margin-left: -8rem; }}"
       ],
       "settings": {
         "title": "CCFD ON-DUTY WEAR",
@@ -332,7 +332,7 @@
         "5ee9cf8d-9f41-4768-88fe-fc442d9b0ab6"
       ],
       "custom_css": [
-        "@media screen and (min-width: 990px) {div.multicolumn {position: relative; top: -273rem; } div.multicolumn > div {margin-left: -3rem; }}"
+        "@media screen and (min-width: 749px) {div.multicolumn {position: relative; top: -273rem; } div.multicolumn > div {margin-left: -8rem; }}"
       ],
       "settings": {
         "title": "CUSTOM FireApesFD APPAREL",
@@ -402,7 +402,7 @@
         "3f44cd41-46a6-4939-ba76-f3d987cb6554"
       ],
       "custom_css": [
-        "@media screen and (min-width: 990px) {div.multicolumn {position: relative; top: -546rem; } div.multicolumn > div {margin-left: -3rem; }}"
+        "@media screen and (min-width: 749px) {div.multicolumn {position: relative; top: -546rem; } div.multicolumn > div {margin-left: -8rem; }}"
       ],
       "settings": {
         "title": "OFF-DUTY SWAG",
@@ -483,7 +483,7 @@
         "5c96321f-3fbb-4975-bba1-041edb39767e"
       ],
       "custom_css": [
-        "@media screen and (min-width: 990px) {div.multicolumn {position: relative; top: -818rem; } div.multicolumn > div {margin-left: -3rem; }}"
+        "@media screen and (min-width: 749px) {div.multicolumn {position: relative; top: -818rem; } div.multicolumn > div {margin-left: -8em; }}"
       ],
       "settings": {
         "title": "CUSTOM ON-DUTY SHIRTS",
@@ -564,7 +564,7 @@
         "cde47f3e-67b7-4649-9366-a62659d70c52"
       ],
       "custom_css": [
-        "@media screen and (min-width: 990px) {div.multicolumn {position: relative; top: -1090rem; } div.multicolumn > div {margin-left: -3rem; }}"
+        "@media screen and (min-width: 749px) {div.multicolumn {position: relative; top: -1090rem; } div.multicolumn > div {margin-left: -8em; }}"
       ],
       "settings": {
         "title": "SPORTS GEAR",
@@ -634,7 +634,7 @@
         "template--16682270163173__c0a91385-2033-4a95-aead-f60af1143f1f-1674523449ccf25dce-1"
       ],
       "custom_css": [
-        "@media screen and (min-width: 990px) {div.multicolumn {position: relative; top: -1362rem; } div.multicolumn > div {margin-left: -3rem; }}"
+        "@media screen and (min-width: 749px) {div.multicolumn {position: relative; top: -1362rem; } div.multicolumn > div {margin-left: -8em; }}"
       ],
       "settings": {
         "title": "HOLIDAY JOY",

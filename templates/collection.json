@@ -2,6 +2,9 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+        "@media screen and (max-width: 749px) {h1 {font-size: 1em; }}"
+      ],
       "settings": {
         "show_collection_description": false,
         "show_collection_image": false,

@@ -1,0 +1,7 @@
+@media screen and (min-width: 749px) {
+  /* move home page footer up */
+  footer {
+    position: relative;
+    top: -65em;
+  }
+}

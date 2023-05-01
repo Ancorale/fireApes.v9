@@ -2,12 +2,15 @@
   "sections": {
     "main": {
       "type": "main-list-collections",
+      "custom_css": [
+        "@media screen and (max-width: 749px) {h1 {font-size: 1em; } h3 {font-size: .7em; }}"
+      ],
       "settings": {
         "title": "CATALOG",
         "sort": "alphabetical",
         "image_ratio": "adapt",
         "columns_desktop": 4,
-        "columns_mobile": "1"
+        "columns_mobile": "2"
       }
     }
   },

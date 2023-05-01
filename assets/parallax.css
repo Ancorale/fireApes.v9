@@ -371,6 +371,12 @@ div.appstle_tooltip_wrapper,
 
 /* media queries  full screen */
 @media screen and (min-width: 749px) {
+  /* move home page footer up */
+  .section-sections--16751274492133__footer-padding {
+    position: relative;
+    top: -643rem;
+  }
+
   /* policies centered */
   #shopify-section-footer
     > footer
@@ -410,39 +416,39 @@ div.appstle_tooltip_wrapper,
   /* note: moves sections up page ***********/
   /* DEBUG */
   /* CUSTOM */
-  #shopify-section-template--16751274033381__bde6b1f1-40a2-4432-aa62-d39b5c6ab3a7
+  /* #shopify-section-template--16751274033381__bde6b1f1-40a2-4432-aa62-d39b5c6ab3a7
     > div {
     position: relative;
     top: -273rem;
-  }
+  } */
 
   /* OFF-DUTY SWAG */
-  #shopify-section-template--1675127403338116751274033381__41d9cda6-bfef-4c27-9760-b3f36ce9622c
+  /* #shopify-section-template--1675127403338116751274033381__41d9cda6-bfef-4c27-9760-b3f36ce9622c
     > div {
     position: relative;
     top: -546rem;
-  }
+  } */
 
   /* CUSTOM ON-DUTY SHIRTS */
-  #shopify-section-template--1675127403338116751274033381__1d1d8345-f7b5-4ea2-aff8-7126c8e453c7
+  /* #shopify-section-template--1675127403338116751274033381__1d1d8345-f7b5-4ea2-aff8-7126c8e453c7
     > div {
     position: relative;
     top: -818rem;
-  }
+  } */
 
   /* SPORTS GEAR */
-  #shopify-section-template--1675127403338116751274033381__a4d8221a-8cbd-4e3a-9f0d-8b69fa4bdd81
+  /* #shopify-section-template--1675127403338116751274033381__a4d8221a-8cbd-4e3a-9f0d-8b69fa4bdd81
     > div {
     position: relative;
     top: -1090rem;
-  }
+  } */
 
   /* HOLIDAY JOY */
-  #shopify-section-template--16751274033381__c0a91385-2033-4a95-aead-f60af1143f1f
+  /* #shopify-section-template--16751274033381__c0a91385-2033-4a95-aead-f60af1143f1f
     > div {
     position: relative;
     top: -1362rem;
-  }
+  } */
 
   /* krew */
   #shopify-section-template--16751274033381__16620740233ae36dce > div {
@@ -457,7 +463,7 @@ div.appstle_tooltip_wrapper,
   }
 
   /* moves sections into middle */
-  #shopify-section-template--16751274033381__1661205021dc147d32 > div > div,
+  /* #shopify-section-template--16751274033381__1661205021dc147d32 > div > div,
   #shopify-section-template--16751274033381__41d9cda6-bfef-4c27-9760-b3f36ce9622c
     > div
     > div,
@@ -474,7 +480,7 @@ div.appstle_tooltip_wrapper,
     > div
     > div {
     margin-left: -3rem;
-  }
+  } */
 
   /* MEET THE KREW */
   #shopify-section-template--16751274033381__db8294e5-2f0f-4633-b331-6d2ac627df96
@@ -504,27 +510,6 @@ div.appstle_tooltip_wrapper,
 @media screen and (max-width: 990px) {
   .spacer {
     height: 1vw;
-  }
-}
-
-/* mobile */
-@media screen and (max-width: 750px) {
-  /* exposes shadow on bottom of cards */
-  #Slide-template--16682270163173__1661205021dc147d32-1 > div > a > div,
-  #Slide-template--16682270163173__c0a91385-2033-4a95-aead-f60af1143f1f-1
-    > div
-    > a
-    > div {
-    margin-bottom: 2.5em;
-  }
-
-  /* collection header font size for mobile */
-  .collection-hero__title {
-    font-size: 1em;
-  }
-
-  .card__heading.h5 > a {
-    font-size: 1em;
   }
 }
 
@@ -625,4 +610,15 @@ div.appstle_tooltip_wrapper,
 
 .gallery__item.media.media--transparent.media--square {
   border-radius: 10px;
+}
+
+/* note: freewear ************************************************************************************/
+
+#facetOptions {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 18, 0.6),
+    rgba(1, 1, 18, 1)
+  );
+  opacity: 0.9;
 }

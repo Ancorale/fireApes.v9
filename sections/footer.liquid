@@ -217,7 +217,7 @@
               {%- endform -%}
             </div>
           {%- endif -%}
-          
+
           {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
             <div class="footer__follow-on-shop">
               {% comment %} TODO: enable theme-check once `login_button` is accepted as valid filter {% endcomment %}
@@ -355,6 +355,21 @@
     </div>
   </div>
 </footer>
+
+{% comment %} 
+this needs to be added when updating 
+{% endcomment %}
+{% if template contains 'product' %}
+  {%- style -%}
+    @media screen and (min-width: 749px) {
+      /* move footer up */
+      .footer {
+        position: relative;
+        top: -60em;
+      }
+    }
+  {%- endstyle -%}
+{% endif %}
 
 {%- if section.settings.enable_country_selector or section.settings.enable_language_selector -%}
   <script src="{{ 'localization-form.js' | asset_url }}" defer="defer"></script>
