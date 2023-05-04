@@ -248,6 +248,16 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+
+    {% comment %} PWA {% endcomment %}
+    <link rel="manifest" href="/manifest.json">
+    <script src="{{ 'pwabuilder-sw.js' | asset_url }}"></script>
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('{{ 'pwabuilder-sw.js' | asset_url }}');
+      }
+    </script>
   </head>
 
   <body class="gradient">
@@ -258,25 +268,25 @@
       {%- render 'cart-drawer' -%}
     {%- endif -%}
 
-      <section class="section">
-        <figure class="image-container">
-          <img
-            src="https://cdn.shopify.com/s/files/1/0633/1505/0725/files/backGrade5.20.webp?v=1669134737"
-            loading="eager"
-            alt="Background fire fighter images"
-            height="{{ image.height }}"
-            width="{{ image.width }}"
-          >
-        </figure>
+    <section class="section">
+      <figure class="image-container">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0633/1505/0725/files/backGrade5.20.webp?v=1669134737"
+          loading="eager"
+          alt="Background fire fighter images"
+          height="{{ image.height }}"
+          width="{{ image.width }}"
+        >
+      </figure>
 
-        <article class="content">
-          {% sections 'header-group' %}
-          <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-            {{ content_for_layout }}
-          </main>
-          {% sections 'footer-group' %}
-        </article>
-      </section>
+      <article class="content">
+        {% sections 'header-group' %}
+        <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+          {{ content_for_layout }}
+        </main>
+        {% sections 'footer-group' %}
+      </article>
+    </section>
 
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
