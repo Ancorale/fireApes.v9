@@ -7,23 +7,17 @@
   "orientation": "any",
   "scope": "\/",
   "short_name": "FireApesF.D.",
-  "start_url": "\/",
+  "start_url": "/",
   "theme_color": "#2424f6",
-  "categories": [
-    "shopping"
-  ],
-  "screenshots": [
-
-  ],
+  "categories": ["shopping"],
+  "screenshots": [],
   "icons": [
     {
-      "src": "\/\/cdn.shopify.com\/s\/files\/1\/0633\/1505\/0725\/products\/Red_Stripe.png?crop=center&height=32&v=1667772516&width=32",
-      "type": "image\/png",
+      "src": "//cdn.shopify.com/s/files/1/0633/1505/0725/products/Red_Stripe.png?crop=center&height=32&v=1667772516&width=32",
+      "type": "image/png",
       "sizes": "32x32"
     }
   ],
-  "shortcuts": [
-
-  ],
+  "shortcuts": [],
   "lang": "en"
 }
